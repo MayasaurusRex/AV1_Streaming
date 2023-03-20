@@ -74,6 +74,8 @@ async fn main() -> Result<()> {
         .unwrap_or(Encoder::AV1);
 
     warn!("Framerate {framerate}");
+    warn!("{}", encoder == Encoder::MJPEG);
+    warn!("Vid {video_device_index}");
     enc.width = width;
     enc.height = height;
     enc.bit_depth = 8;

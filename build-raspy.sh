@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
-USER=ubuntu
-PI_IP=192.168.18.39
+USER=treads
+PI_IP=192.168.2.5
 TARGET=aarch64-unknown-linux-gnu
 
 sudo apt update
